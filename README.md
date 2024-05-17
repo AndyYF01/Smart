@@ -1,7 +1,9 @@
-// SPDX-License-Identifier: MIT
-pragma solidity >=0.8.17;
+Contrato
 
-contract SistemaCompraVenta{
+    // SPDX-License-Identifier: MIT
+    pragma solidity >=0.8.17;
+
+    contract SistemaCompraVenta{
     struct vendedor{
         uint256 num;
         string cuidad;
@@ -80,13 +82,13 @@ contract SistemaCompraVenta{
 }
 
 
-/////////////////
+    /////////////////
 
-// SPDX-License-Identifier: GPL-3.0
+    // SPDX-License-Identifier: GPL-3.0
 
-pragma solidity ^0.8.17;
+    pragma solidity ^0.8.17;
 
-contract Shop {
+    contract Shop {
     struct Product {
         string info;
         uint256 price; 
